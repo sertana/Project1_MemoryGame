@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game :space_invader:
 
-![](https://giphy.com/gifs/sailor-moon-venus-TLKKExVa9v8bu)
+![](https://media.giphy.com/media/TLKKExVa9v8bu/giphy.gif)
 
 ## Overview
 
