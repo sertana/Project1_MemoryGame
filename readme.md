@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game:exclamation:
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game :space_invader:
 
 ## Overview
 
@@ -17,13 +17,15 @@ Show us what you've got!
 ## Requirements
 Your project has 3 required parts: the app, a README markdown file, and a presentation
 
-#### Constraints:
+#### Constraints :no_entry_sign::
 
-- Collision detection games are NOT allowed (oooo controversial!)
+- Collision detection games are NOT allowed (oooo controversial!)</br>
+  ***Note:*** </br>
+  >If you are super set on doing a collision game, you may petition to do one. This petition involves either a working collision example that you have previously made OR an **in depth**, **highly technical** written statement explaining the collision logic you plan on using.
 - HTML Canvas based games are NOT allowed.
 - 3rd party CSS Frameworks are NOT allowed.
 
-#### Your app must:
+#### Your app must :computer::
 
 - Have two pages: a landing page and a game page
 	- Landing page:
@@ -42,11 +44,9 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 - Adhere to the [Google style guide](https://google.github.io/styleguide/htmlcssguide.xml) for writing your HTML/CSS
 
 	***Note***</br>
-	If you're creating a two (or more)-player game, you MUST:<br>
-	- allow players to take turns
-	- design logic for winning & visually display which player won
+	>If you're creating a two (or more)-player game, you must allow players to take turns and design logic for winning & visually display which player won
 
-#### Your README.md file must include:
+#### Your README.md file must include :memo::
 * Explanations of the technologies used
 * Wireframes
 * The approach taken
@@ -54,20 +54,23 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 * Unsolved problems
 * Any other useful information about your app
 
-#### Your presentation must:
+#### Your presentation will consist of :speech_balloon::
+- **5 minutes:** A presentation deck _- Google Slides, Keynote, PowerPoint_
+  - At least 5 slides
+  - Use easy-to-understand language and avoid too much "technical" terminology
+  - Include wireframes that shows your game and landing page
+  - Answer the following questions:
+	 - What is the game about?
+	 - What features did include?
+	 - Were there any constraints you had to work with? (e.g. technological, timing, content, etc.)
+	 - Is there any other information you think might help us (your stakeholders) understand what you've built?
+- **2 minutes:** A demo of your game
+  - Show the functionality of your game!
 
-- Be at least 5 slides
-- Use easy-to-understand language and avoid too much "technical" terminology
-- Include wireframes that shows your game and landing page
-- Answer the following questions:
-	- What is the game about?
-	- What features did include?
-	- Were there any constraints you had to work with? (e.g. technological, timing, content, etc.)
-	- Is there any other information you think might help us (your stakeholders) understand what you've built?
+***Note***</br>
+>We **will** cut you off after the given amounts of time. Likewise if you are *way* under your time, we **will** tell you to stand there until your time is done, so don't skimp out. Plan your presentation accordingly. Practice it!
 
-
-
-#### Bonus
+#### Bonus :tada::
 - If this is a one-player game, design logic for winning and visually display score
 - Include at least one animation using SVG
 - Include a "Tutorial Section" of this landing page
@@ -87,11 +90,12 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 
 **For the presentation:**
 
-* Create a presentation deck - Google Slides, Keynote, PowerPoint - of at least 5 slides that answers the questions above _(in the presentation requirements section)_.
+* Create a 5 minute presentation deck - Google Slides, Keynote, PowerPoint - of at least 5 slides that answers the questions above _(in the presentation requirements section)_.
+* Demo your game!
 
 ---
 
-## Suggested Ways to Get Started
+## Suggested Ways to Get Started :checkered_flag:
 
 * Break the project down into different components (data, presentation, views, style, DOM manipulation) and brainstorm each component individually. Use whiteboards!
 * Use your Development Tools (console.log, inspector, alert statements, etc) to debug and solve problems
@@ -102,7 +106,7 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 
 ---
 
-## Strongly Suggested Project Ideas
+## Strongly Suggested Project Ideas :bulb:
 
 #### Beginner
 - Simon
@@ -123,7 +127,18 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 
 ---
 
-## Useful Resources
+## Project Submission :mailbox_with_mail:
+
+Projects will be due **Monday June 12** at **11:00 PM**. To submit your project, create an issue on this repository including:
+
+- A link to your project repo
+- A link to your github page
+
+You will be presenting your project **Tuesday June 13th**. Be prepared to talk about your project and remember to follow the rules in the requirements section!
+
+---
+
+## Useful Resources :link:
 
 * **[Query string parsing with JS](https://davidwalsh.name/query-string-javascript)** _(How to extract variables passed from page A to page B through query strings)_
 * **[HTML forms method attribute](http://www.w3schools.com/tags/att_form_method.asp)** _(How to use the form's method attribute to send variables through the URL as query strings when submitting)_
@@ -132,12 +147,13 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 * **[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)**
 * **[GitHub Pages](https://pages.github.com)** _(for hosting your game)_
 * **[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)** _(for your README.md file)_
+* **[:dizzy:EMOJIS:star2:](https://www.webpagefx.com/tools/emoji-cheat-sheet/)** _(for really awesome README.md files)_
 
 ---
 
-## Project Proposals - Due Tomorrow 2/15!
+## Project Proposals - Due Tomorrow 6/7! :calendar:
 
-All proposals should be in the form of an issue attached to this issue.
+All proposals should be in the form of an issue attached to this repository.
 
 #### Your proposal should include:
 - Name of the game
@@ -146,3 +162,7 @@ All proposals should be in the form of an issue attached to this issue.
 - Wireframes of your landing page and game page
 - Technology you intend to use
 - A link to your repo!
+
+---
+
+# :dizzy::sparkles:Most Importantly, HAVE FUN WITH IT!:sparkles::dizzy:
