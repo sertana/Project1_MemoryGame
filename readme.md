@@ -1,5 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game :space_invader:
 
+![](https://giphy.com/gifs/sailor-moon-venus-TLKKExVa9v8bu)
+
 ## Overview
 
 Let's start out with something fun - a game
@@ -164,5 +166,5 @@ All proposals should be in the form of an issue attached to this repository.
 - A link to your repo!
 
 ---
-
-# :dizzy::sparkles:Most Importantly, HAVE FUN WITH IT!:sparkles::dizzy:
+### Most Importantly:
+# :dizzy::sparkles: HAVE FUN WITH IT! :sparkles::dizzy:
