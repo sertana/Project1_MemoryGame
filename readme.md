@@ -37,7 +37,7 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 - Use only jQuery for DOM manipulation
 - Deploy your game online to GitHub pages - (We will be going over how to do this later this week)
 - Include at least one CSS transition fired by a DOM event
-- Style your form, landing page, and game page with class-based external CSS file (*inline styles are not allowed*)
+- Style your landing page and game page with class-based external CSS file (*inline styles are not allowed*)
 - Use media queries to make your pages responsive
 - Use flexbox to build your grid system
 - Create and get approval for a wireframe for your project
