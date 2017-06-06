@@ -1,8 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game :tada:
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game:exclamation:
 
 ## Overview
 
-Let's start out with something fun - a game!
+Let's start out with something fun - a game
 
 Everyone will get a chance to be creative, and work through some really tough programming challenges - it's up to you to use what you've learned to come up with a fun and interesting game.
 
@@ -15,7 +15,7 @@ Show us what you've got!
 ---
 
 ## Requirements
-Your project has 3 required parts: the App, a README markdown file, and a presentation
+Your project has 3 required parts: the app, a README markdown file, and a presentation
 
 #### Constraints:
 
@@ -41,8 +41,8 @@ Your project has 3 required parts: the App, a README markdown file, and a presen
 - Adhere to the [AirBnB style guide](https://github.com/airbnb/javascript) for writing your JavaScript
 - Adhere to the [Google style guide](https://google.github.io/styleguide/htmlcssguide.xml) for writing your HTML/CSS
 
-	***Note***
-	> If you're creating a two (or more)-player game, you MUST:
+	***Note***</br>
+	If you're creating a two (or more)-player game, you MUST:<br>
 	- allow players to take turns
 	- design logic for winning & visually display which player won
 
@@ -50,7 +50,7 @@ Your project has 3 required parts: the App, a README markdown file, and a presen
 * Explanations of the technologies used
 * Wireframes
 * The approach taken
-* Installation instructions _(if any)_
+* Installation instructions
 * Unsolved problems
 * Any other useful information about your app
 
@@ -72,21 +72,20 @@ Your project has 3 required parts: the App, a README markdown file, and a presen
 - Include at least one animation using SVG
 - Include a "Tutorial Section" of this landing page
 
-
 ---
 
 ## Necessary Deliverables
 
-For the app:
+**For the app:**
 
 * A working game, built by you, hosted on GitHub Pages
 * A git repository hosted on GitHub, with a link to your hosted game (*A link to your hosted working game in the URL section of your GitHub repo*), and frequent commits dating back to the very beginning of the project
 
-For the README:
+**For the README:**
 
 * Create a README.md that includes the requirements above _(in the presentation requirements section)_.
 
-For the presentation:
+**For the presentation:**
 
 * Create a presentation deck - Google Slides, Keynote, PowerPoint - of at least 5 slides that answers the questions above _(in the presentation requirements section)_.
 
@@ -136,9 +135,9 @@ For the presentation:
 
 ---
 
-## Project Proposals - Due Tomorrow 2/15! :calendar:
+## Project Proposals - Due Tomorrow 2/15!
 
-All proposals should be in the form of an issue attached to *this* repo (not your forked one if you do that.  Why would you do that?)
+All proposals should be in the form of an issue attached to this issue.
 
 #### Your proposal should include:
 - Name of the game
