@@ -31,7 +31,7 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 
 - Have two pages: a landing page and a game page
 	- Landing page:
-		- Use a form to collect information about the user and display that information on the game page. Be sure to add things to your form, if needed, like buttons, sliders, checkboxes, radio buttons, etc.
+		- With the name of your game, instructions, and a start button.
 	- Game page:
 		- Should contain the actual game.
 - Use only jQuery for DOM manipulation
@@ -52,7 +52,7 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 * Explanations of the technologies used
 * Wireframes
 * The approach taken
-* Installation instructions
+* Installation instructions _(if needed)_
 * Unsolved problems
 * Any other useful information about your app
 
@@ -75,7 +75,8 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 #### Bonus :tada::
 - If this is a one-player game, design logic for winning and visually display score
 - Include at least one animation using SVG
-- Include a "Tutorial Section" of this landing page
+- Include a "Tutorial Section"
+- Use a form to collect information about the user on the landing and display that information on the game page.
 
 ---
 
