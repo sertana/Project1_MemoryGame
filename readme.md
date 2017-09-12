@@ -25,7 +25,6 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
   ***Note:*** </br>
   >If you are super set on doing a collision game, you may petition to do one. This petition involves either a working collision example that you have previously made OR an **in depth**, **highly technical** written statement explaining the collision logic you plan on using.
 - HTML Canvas based games are NOT allowed.
-- 3rd party CSS Frameworks are NOT allowed.
 
 #### Your app must :computer::
 
@@ -34,12 +33,10 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 		- With the name of your game, instructions, and a start button.
 	- Game page:
 		- Should contain the actual game.
-- Use only jQuery for DOM manipulation
-- Deploy your game online to GitHub pages - (We will be going over how to do this later this week)
-- Include at least one CSS transition fired by a DOM event
+- Use DOM manipulation - either vanilla or jQuery
+- Deploy your game online to GitHub pages - _(We will be going over how to do this later this week)_
 - Style your landing page and game page with class-based external CSS file (*inline styles are not allowed*)
 - Use media queries to make your pages responsive
-- Use flexbox to build your grid system
 - Create and get approval for a wireframe for your project
 - Comment your code appropriately
 - Adhere to the [AirBnB style guide](https://github.com/airbnb/javascript) for writing your JavaScript
@@ -73,10 +70,12 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 >We **will** cut you off after the given amounts of time. Likewise if you are *way* under your time, we **will** tell you to stand there until your time is done, so don't skimp out. Plan your presentation accordingly. Practice it!
 
 #### Bonus :tada::
-- If this is a one-player game, design logic for winning and visually display score
-- Include at least one animation using SVG
+- Include a animation using SVG
 - Include a "Tutorial Section"
-- Use a form to collect information about the user on the landing and display that information on the game page.
+- Use a form to collect information about the user on the landing and display that information on the game page. 
+
+	**Hint:** 
+	> look at [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
 ---
 
@@ -132,12 +131,12 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 
 ## Project Submission :mailbox_with_mail:
 
-Projects will be due **Monday June 12** at **11:00 PM**. To submit your project, create an issue on this repository including:
+Projects will be due **Monday September 18** at **11:00 PM**. To submit your project, create an issue on this repository including:
 
 - A link to your project repo
 - A link to your github page
 
-You will be presenting your project **Tuesday June 13th**. Be prepared to talk about your project and remember to follow the rules in the requirements section!
+You will be presenting your project **Tuesday September 19th**. Be prepared to talk about your project and remember to follow the rules in the requirements section!
 
 ---
 
@@ -154,13 +153,15 @@ You will be presenting your project **Tuesday June 13th**. Be prepared to talk a
 
 ---
 
-## Project Proposals - Due Tomorrow 6/7! :calendar:
+## Project Proposals - Due Tonight 9/12 at 11:00 PM! :calendar:
 
 All proposals should be in the form of an issue attached to this repository.
 
 #### Your proposal should include:
 - Name of the game
 - Rules
+- Your MVP [_(minimum viable product)_](https://www.devbridge.com/articles/4-steps-to-defining-a-minimum-viable-product/) for this project
+- Reach Goals
 - Foreseen challenges or obstacles
 - Wireframes of your landing page and game page
 - Technology you intend to use
