@@ -140,8 +140,6 @@ You will be presenting your project **Tuesday September 19th**. Be prepared to t
 
 ## Useful Resources :link:
 
-* **[Query string parsing with JS](https://davidwalsh.name/query-string-javascript)** _(How to extract variables passed from page A to page B through query strings)_
-* **[HTML forms method attribute](http://www.w3schools.com/tags/att_form_method.asp)** _(How to use the form's method attribute to send variables through the URL as query strings when submitting)_
 * **[MDN Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** _(a great reference for all things Vanilla Javascript)_
 * **[jQuery Docs](http://api.jquery.com)** _(if you're using jQuery)_
 * **[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)**
