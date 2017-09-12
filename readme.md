@@ -8,8 +8,6 @@ Let's start out with something fun - a game
 
 Everyone will get a chance to be creative, and work through some really tough programming challenges - it's up to you to use what you've learned to come up with a fun and interesting game.
 
-You will be working individually for this project, but we'll be guiding you along the process and helping as you go.
-
 As part of this project, you'll be required to create a project presentation that you will use to present your work at the end of project week. Your goal for this presentation is to extract the most important aspects of what went into building your project into easy-to-use language and practice speaking and presenting about your code.
 
 Show us what you've got!
