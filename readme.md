@@ -4,7 +4,7 @@
 
 ## Overview
 
-Let's start out with something fun - a game
+Let's start out with something fun - a game!
 
 Everyone will get a chance to be creative, and work through some really tough programming challenges - it's up to you to use what you've learned to come up with a fun and interesting game.
 
@@ -19,48 +19,53 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 
 #### Constraints :no_entry_sign::
 
-- Collision detection games are NOT allowed (oooo controversial!)</br>
-  ***Note:*** </br>
+- Collision detection games are NOT allowed
+
+  ***Note:***
   >If you are super set on doing a collision game, you may petition to do one. This petition involves either a working collision example that you have previously made OR an **in depth**, **highly technical** written statement explaining the collision logic you plan on using.
-- HTML Canvas based games are NOT allowed.
 
-#### Your app must :computer::
+- HTML Canvas based games are NOT allowed
 
-- Have two pages: a landing page and a game page
+#### Requirements :computer::
+
+- Your app must have two 'pages', that is, full-screen views:
 	- Landing page:
-		- With the name of your game, instructions, and a start button.
+		- With the name of your game, instructions, and a start button that leads to the Game page
 	- Game page:
-		- Should contain the actual game.
+		- Should contain the actual game
 - Use DOM manipulation - either vanilla or jQuery
 - Deploy your game online to GitHub pages - _(We will be going over how to do this later this week)_
-- Style your landing page and game page with class-based external CSS file (*inline styles are not allowed*)
-- Use media queries to make your pages responsive
-- Create and get approval for a wireframe for your project
+- A git repository hosted on GitHub, with a link to your hosted game (*A link to your hosted working game in the URL section of your GitHub repo*), and frequent commits dating back to the very beginning of the project
+- Style your landing page and game page with class-based external CSS file
+
 - Comment your code appropriately
-- Adhere to the [AirBnB style guide](https://github.com/airbnb/javascript) for writing your JavaScript
-- Adhere to the [Google style guide](https://google.github.io/styleguide/htmlcssguide.xml) for writing your HTML/CSS
+- Format your source code using JS-Prettier! REALLY!
+- At the top of your repo, include a README.md (see below for README.md requirements)
 
-	***Note***</br>
-	>If you're creating a two (or more)-player game, you must allow players to take turns and design logic for winning & visually display which player won
+*Note*
 
-#### Your README.md file must include :memo::
-* Explanations of the technologies used
-* Wireframes
-* The approach taken
-* Installation instructions _(if needed)_
-* Unsolved problems
-* Any other useful information about your app
+>If you're creating a two (or more)-player game, you must allow players to take turns and design logic for winning & visually display which player won
+
+#### README Requirements
+* Answer the following questions:
+  - What is the game about?
+  - What features did it include?
+  - Were there any particular pain points or unsolved problems you had to manage? (e.g. technological, timing, content, etc.)
+  - Is there any other information you think might help us understand what you've built?
+* List the technologies used
+* Describe the approach taken
+
+In addition, you can use the README to provide any other useful information about your app.
 
 #### Your presentation will consist of :speech_balloon::
 - **5 minutes:** A presentation deck _- Google Slides, Keynote, PowerPoint_
   - At least 5 slides
   - Use easy-to-understand language and avoid too much "technical" terminology
-  - Include wireframes that shows your game and landing page
   - Answer the following questions:
-	 - What is the game about?
-	 - What features did include?
-	 - Were there any constraints you had to work with? (e.g. technological, timing, content, etc.)
-	 - Is there any other information you think might help us (your stakeholders) understand what you've built?
+    - What is the game about?
+    - What features did it include?
+    - Were there any particular pain points or unsolved problems you had to manage? (e.g. technological, timing, content, etc.)
+    - Is there any other information you think might help us understand what you've built?
 - **2 minutes:** A demo of your game
   - Show the functionality of your game!
 
@@ -70,35 +75,13 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 #### Bonus :tada::
 - Include a animation using SVG
 - Include a "Tutorial Section"
-- Use a form to collect information about the user on the landing and display that information on the game page. 
+- Use a form to collect information about the user on the landing and display that information on the game page
 
-	**Hint:** 
-	> look at [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-
----
-
-## Necessary Deliverables
-
-**For the app:**
-
-* A working game, built by you, hosted on GitHub Pages
-* A git repository hosted on GitHub, with a link to your hosted game (*A link to your hosted working game in the URL section of your GitHub repo*), and frequent commits dating back to the very beginning of the project
-
-**For the README:**
-
-* Create a README.md that includes the requirements above _(in the presentation requirements section)_.
-
-**For the presentation:**
-
-* Create a 5 minute presentation deck - Google Slides, Keynote, PowerPoint - of at least 5 slides that answers the questions above _(in the presentation requirements section)_.
-* Demo your game!
-
----
 
 ## Suggested Ways to Get Started :checkered_flag:
 
 * Break the project down into different components (data, presentation, views, style, DOM manipulation) and brainstorm each component individually. Use whiteboards!
-* Use your Development Tools (console.log, inspector, alert statements, etc) to debug and solve problems
+* Use your Chrome Development Tools (console.log, inspector, alert statements, etc) to debug and solve problems
 * Work through the lessons in class & ask questions when you need to! Think about adding relevant code to your game each night, instead of, you know... _procrastinating_.
 * Commit early, commit often. Don’t be afraid to break something because you can always go back in time to a previous version.
 * Consult documentation resources (MDN, jQuery, etc.) at home to better understand what you’ll be getting into.
@@ -111,30 +94,32 @@ Your project has 3 required parts: the app, a README markdown file, and a presen
 #### Beginner
 - Simon
 - War - Two Player
-- Connect 4 - Two Player
 - Self-scoring Trivia
+- Memory
 
 #### Medium
 - Text Adventure
+- War - Two Player
 - Sorry! - Multiple Players
-- Checkers - Two Players
 - Yahtzee - Two Players
+- Black Jack - with Computer AI
 
 #### Advanced
 - Battleship - Two Player
-- Black Jack - with Computer AI
+- Checkers - Two Players
+- Connect 4 - Two Player
 - Missile Command - Level Progression
 
 ---
 
 ## Project Submission :mailbox_with_mail:
 
-Projects will be due **Monday September 18** at **11:00 PM**. To submit your project, create an issue on this repository including:
+Projects will be due **Tuesday January 9**. To submit your project, create an issue on this repository including:
 
-- A link to your project repo
-- A link to your github page
+- A link to the project repo on Github
+- A link to the deployed game
 
-You will be presenting your project **Tuesday September 19th**. Be prepared to talk about your project and remember to follow the rules in the requirements section!
+You will be presenting your project **Tuesday January 9**. Be prepared to talk about your project and remember to follow the rules in the requirements section!
 
 ---
 
@@ -153,15 +138,16 @@ You will be presenting your project **Tuesday September 19th**. Be prepared to t
 
 All proposals should be in the form of an issue attached to this repository.
 
-#### Your proposal should include:
+#### Your proposal must include:
 - Name of the game
 - Rules
 - Your MVP [_(minimum viable product)_](https://www.devbridge.com/articles/4-steps-to-defining-a-minimum-viable-product/) for this project
 - Reach Goals
 - Foreseen challenges or obstacles
-- Wireframes of your landing page and game page
+- A timeline for your work, providing clear and concise objectives for every day up to the project deadline
 - Technology you intend to use
 - A link to your repo!
+
 
 ---
 ### Most Importantly:
