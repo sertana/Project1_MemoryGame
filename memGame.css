@@ -1,23 +1,33 @@
 #main-container {
   border: 2px solid black;
   width: 400px;
-  height: 400px;
+  height: 200px;
   margin: 0 auto;
   display:flex;
   flex-direction: column;
 }
 #counter {
   border: 2px solid black;
-  width:50px;
-  height:50px;
+  width:40px;
+  height:40px;
   margin: 0 auto;
-  align-items: auto;
-  vertical-align: auto;  
+  text-align: center; 
+  color: red;
+  font-family: bold;
+  font-size: 30px
+  padding:5px; 
 }
 .row {
   flex: 1;
   display: flex;
 }
+.hidden {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+  background-color: darkblue;
+}  
 .cards {
   flex: 1;
   border: 2px solid black;
