@@ -28,7 +28,7 @@ window.onload = function() {
   }
   //updates the counter, checks if losing condition
   function addClicks() {
-    if (clicks == 17) {
+    if (clicks == 18) {
       alert("You lost the game. Try again.");
       fresh();
     } else {
@@ -42,7 +42,7 @@ window.onload = function() {
       if (checkArray[0] == checkArray[1]) {
         divArray[0].addClass("hidden");
         divArray[1].addClass("hidden");
-        setTimeout(checkForWin, 500);
+        setTimeout(checkForWin, 250);
         checkArray = [];
         divArray = [];
       } else {
