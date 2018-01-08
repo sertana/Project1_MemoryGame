@@ -28,7 +28,7 @@ window.onload = function() {
   }
   //updates the counter, checks if losing condition
   function addClicks() {
-    if (clicks == 18) {
+    if (clicks == 17) {
       alert("You lost the game. Try again.");
       fresh();
     } else {
@@ -55,7 +55,8 @@ window.onload = function() {
       }
     }
   }
-  //checks to
+  //checks to see if all the divs has the class of hidden and pops up an alert
+  // of win if the condition match
   function checkForWin() {
     if (
       $("#card1").hasClass("hidden") &&
@@ -81,7 +82,6 @@ window.onload = function() {
     divArray.push($("#card1"));
     checkArray.push(newColors[0]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   $("#card2").click(function() {
     addClicks();
@@ -89,7 +89,6 @@ window.onload = function() {
     divArray.push($("#card2"));
     checkArray.push(newColors[1]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   $("#card3").click(function() {
     addClicks();
@@ -97,7 +96,6 @@ window.onload = function() {
     divArray.push($("#card3"));
     checkArray.push(newColors[2]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   $("#card4").click(function() {
     addClicks();
@@ -105,7 +103,6 @@ window.onload = function() {
     divArray.push($("#card4"));
     checkArray.push(newColors[3]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   $("#card5").click(function() {
     addClicks();
@@ -113,7 +110,6 @@ window.onload = function() {
     divArray.push($("#card5"));
     checkArray.push(newColors[4]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   $("#card6").click(function() {
     addClicks();
@@ -121,7 +117,6 @@ window.onload = function() {
     divArray.push($("#card6"));
     checkArray.push(newColors[5]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   $("#card7").click(function() {
     addClicks();
@@ -129,7 +124,6 @@ window.onload = function() {
     divArray.push($("#card7"));
     checkArray.push(newColors[6]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   $("#card8").click(function() {
     addClicks();
@@ -137,7 +131,6 @@ window.onload = function() {
     divArray.push($("#card8"));
     checkArray.push(newColors[7]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   $("#card9").click(function() {
     addClicks();
@@ -145,7 +138,6 @@ window.onload = function() {
     divArray.push($("#card9"));
     checkArray.push(newColors[8]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   $("#card10").click(function() {
     addClicks();
@@ -153,7 +145,6 @@ window.onload = function() {
     divArray.push($("#card10"));
     checkArray.push(newColors[9]);
     setTimeout(flipOrVanish, 250);
-    // checkForWin();
   });
   console.log(newColors);
 };
