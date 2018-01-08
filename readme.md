@@ -15,68 +15,95 @@ Show us what you've got!
 ---
 
 ## Requirements
+
 Your project has 3 required parts: the app, a README markdown file, and a presentation
 
 #### Constraints :no_entry_sign::
 
-- Collision detection games are NOT allowed
+* Collision detection games are NOT allowed
 
-  ***Note:***
-  >If you are super set on doing a collision game, you may petition to do one. This petition involves either a working collision example that you have previously made OR an **in depth**, **highly technical** written statement explaining the collision logic you plan on using.
+  **_Note:_**
 
-- HTML Canvas based games are NOT allowed
+  > If you are super set on doing a collision game, you may petition to do one. This petition involves either a working collision example that you have previously made OR an **in depth**, **highly technical** written statement explaining the collision logic you plan on using.
+
+* HTML Canvas based games are NOT allowed
 
 #### Requirements :computer::
 
-- Your app must have two 'pages', that is, full-screen views:
-	- Landing page:
-		- With the name of your game, instructions, and a start button that leads to the Game page
-	- Game page:
-		- Should contain the actual game
-- Use DOM manipulation - either vanilla or jQuery
-- Deploy your game online to GitHub pages - _(We will be going over how to do this later this week)_
-- A git repository hosted on GitHub, with a link to your hosted game (*A link to your hosted working game in the URL section of your GitHub repo*), and frequent commits dating back to the very beginning of the project
-- Style your landing page and game page with class-based external CSS file
+* Your app must have two 'pages', that is, full-screen views: - Landing page: - With the name of your game, instructions, and a start button that leads to the Game page - Game page: - Should contain the actual game
+* Use DOM manipulation - either vanilla or jQuery
+* Deploy your game online to GitHub pages - _(We will be going over how to do this later this week)_
+* A git repository hosted on GitHub, with a link to your hosted game (_A link to your hosted working game in the URL section of your GitHub repo_), and frequent commits dating back to the very beginning of the project
+* Style your landing page and game page with class-based external CSS file
 
-- Comment your code appropriately
-- Format your source code using JS-Prettier! REALLY!
-- At the top of your repo, include a README.md (see below for README.md requirements)
+* Comment your code appropriately
+* Format your source code using JS-Prettier! REALLY!
+* At the top of your repo, include a README.md (see below for README.md requirements)
 
-*Note*
+_Note_
 
->If you're creating a two (or more)-player game, you must allow players to take turns and design logic for winning & visually display which player won
+> If you're creating a two (or more)-player game, you must allow players to take turns and design logic for winning & visually display which player won
 
 #### README Requirements
+
 * Answer the following questions:
-  - What is the game about?
-  - What features did it include?
-  - Were there any particular pain points or unsolved problems you had to manage? (e.g. technological, timing, content, etc.)
-  - Is there any other information you think might help us understand what you've built?
-* List the technologies used
-* Describe the approach taken
+
+  * What is the game about?
+    The game requires a player to remember where cards of different colors are located.
+
+  The colors will be revealed when you click on it.
+
+  If the colors match the two cards will disappear.
+
+  If the colors do not match, the cards will go to its original color in quarter second.
+
+  Once you have the colors revealed, player needs to use his own strategy to reveal and match cards till all cards disappear.
+
+  The player gets 18 clicks to finish the game, otherwise the players loses and the game is reset gain.
+
+  * What features did it include?
+    The board was created in HTML.
+
+  The board and the all the cards are divs.
+
+  Flexbox was used to size and position the cards.
+
+Various function were created and called upon when cards are clicked.
+
+The click counter counts the number of clicks and lets the player know how many clicks they have used.
+
+SetTimeout, shuffling an existing array to generate random array and checking for matching colors are the main feature of the javascript.
+
+* Were there any particular pain points or unsolved problems you had to manage? (e.g. technological, timing, content, etc.)
+* Is there any other information you think might help us understand what you've built?
+
+- List the technologies used
+- Describe the approach taken
 
 In addition, you can use the README to provide any other useful information about your app.
 
 #### Your presentation will consist of :speech_balloon::
-- **5 minutes:** A presentation deck _- Google Slides, Keynote, PowerPoint_
-  - At least 5 slides
-  - Use easy-to-understand language and avoid too much "technical" terminology
-  - Answer the following questions:
-    - What is the game about?
-    - What features did it include?
-    - Were there any particular pain points or unsolved problems you had to manage? (e.g. technological, timing, content, etc.)
-    - Is there any other information you think might help us understand what you've built?
-- **2 minutes:** A demo of your game
-  - Show the functionality of your game!
 
-***Note***</br>
->We **will** cut you off after the given amounts of time. Likewise if you are *way* under your time, we **will** tell you to stand there until your time is done, so don't skimp out. Plan your presentation accordingly. Practice it!
+* **5 minutes:** A presentation deck _- Google Slides, Keynote, PowerPoint_
+  * At least 5 slides
+  * Use easy-to-understand language and avoid too much "technical" terminology
+  * Answer the following questions:
+    * What is the game about?
+    * What features did it include?
+    * Were there any particular pain points or unsolved problems you had to manage? (e.g. technological, timing, content, etc.)
+    * Is there any other information you think might help us understand what you've built?
+* **2 minutes:** A demo of your game
+  * Show the functionality of your game!
+
+**_Note_**</br>
+
+> We **will** cut you off after the given amounts of time. Likewise if you are _way_ under your time, we **will** tell you to stand there until your time is done, so don't skimp out. Plan your presentation accordingly. Practice it!
 
 #### Bonus :tada::
-- Include a animation using SVG
-- Include a "Tutorial Section"
-- Use a form to collect information about the user on the landing and display that information on the game page
 
+* Include a animation using SVG
+* Include a "Tutorial Section"
+* Use a form to collect information about the user on the landing and display that information on the game page
 
 ## Suggested Ways to Get Started :checkered_flag:
 
@@ -92,23 +119,26 @@ In addition, you can use the README to provide any other useful information abou
 ## Strongly Suggested Project Ideas :bulb:
 
 #### Beginner
-- Simon
-- War - Two Player
-- Self-scoring Trivia
-- Memory
+
+* Simon
+* War - Two Player
+* Self-scoring Trivia
+* Memory
 
 #### Medium
-- Text Adventure
-- War - Two Player
-- Sorry! - Multiple Players
-- Yahtzee - Two Players
-- Black Jack - with Computer AI
+
+* Text Adventure
+* War - Two Player
+* Sorry! - Multiple Players
+* Yahtzee - Two Players
+* Black Jack - with Computer AI
 
 #### Advanced
-- Battleship - Two Player
-- Checkers - Two Players
-- Connect 4 - Two Player
-- Missile Command - Level Progression
+
+* Battleship - Two Player
+* Checkers - Two Players
+* Connect 4 - Two Player
+* Missile Command - Level Progression
 
 ---
 
@@ -116,8 +146,8 @@ In addition, you can use the README to provide any other useful information abou
 
 Projects will be due **Tuesday January 9**. To submit your project, create an issue on this repository including:
 
-- A link to the project repo on Github
-- A link to the deployed game
+* A link to the project repo on Github
+* A link to the deployed game
 
 You will be presenting your project **Tuesday January 9**. Be prepared to talk about your project and remember to follow the rules in the requirements section!
 
@@ -139,16 +169,18 @@ You will be presenting your project **Tuesday January 9**. Be prepared to talk a
 All proposals should be in the form of an issue attached to this repository.
 
 #### Your proposal must include:
-- Name of the game
-- Rules
-- Your MVP [_(minimum viable product)_](https://www.devbridge.com/articles/4-steps-to-defining-a-minimum-viable-product/) for this project
-- Reach Goals
-- Foreseen challenges or obstacles
-- A timeline for your work, providing clear and concise objectives for every day up to the project deadline
-- Technology you intend to use
-- A link to your repo!
 
+* Name of the game
+* Rules
+* Your MVP [_(minimum viable product)_](https://www.devbridge.com/articles/4-steps-to-defining-a-minimum-viable-product/) for this project
+* Reach Goals
+* Foreseen challenges or obstacles
+* A timeline for your work, providing clear and concise objectives for every day up to the project deadline
+* Technology you intend to use
+* A link to your repo!
 
 ---
+
 ### Most Importantly:
+
 # :dizzy::sparkles: HAVE FUN WITH IT! :sparkles::dizzy:
