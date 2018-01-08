@@ -29,7 +29,7 @@ window.onload = function() {
   //updates the counter, checks if losing condition
   function addClicks() {
     if (clicks == 18) {
-      alert("You lost the game. Try again.");
+      alert("Better luck next time.");
       fresh();
     } else {
       clicks++;
@@ -70,7 +70,7 @@ window.onload = function() {
       $("#card9").hasClass("hidden") &&
       $("#card10").hasClass("hidden")
     ) {
-      alert("You won");
+      alert("You won.");
       fresh();
     }
   }
