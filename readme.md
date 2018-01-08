@@ -32,13 +32,13 @@ SetTimeout, shuffling an existing array to generate random array and checking fo
 
 The biggest issue was to create associate random colors to the cards everytime a new game was played.
 
-Instead of using individual click function on each card, I wanted to use one click event and associate it with all the cards. However, that apporach did not work for me because I was not able to associate different colors in different clicks.
+Instead of using individual click function on each card, I wanted to use one click event and associate it with all the cards. However, that approach did not work for me because I was not able to associate different colors in different clicks.
 
 I had started out with 20 cards. However since code were being repeated on each card, I decided to cut the board in 10 cards.
 
 The cards do disappear if player clicks on it twice. However that approach of playing won't allow the player to win because it takes 20 clicks to win.
 
-If I did not use a setTimeout function, player would not see the second card if colors did not match. This would be a more challengin to the players memory. A more tedious and careful strategy would have to used win in 18 clicks and under.
+If I did not use a setTimeout function, player would not see the second card if colors did not match. This would be a more challenging to the player's memory. A more tedious and careful strategy would have to used win in 18 clicks and under.
 
 #Is there any other information you think might help us understand what you've built?#
 
@@ -64,6 +64,6 @@ The next step was to execute events that would happen when an individual card wa
     * It puts the color of the card in an array, and also the card in an array.
     * It checks to see if the card array has two elements.
     * If the card array has two elements, then it checks to see if the two colors in the color array is the same.
-    * If the two colors are same, the respective cards will have an opacity of 0.
+    * If the two colors are same, the respective cards will have an opacity of zero.
     * If the two colors are not the same, the cards will turn back to its original color after a slight delay.
     * If all cards disappear, a win message is alerted.
