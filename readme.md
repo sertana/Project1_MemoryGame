@@ -1,6 +1,6 @@
-#Sanjaya's Memory Game
+# Sanjaya's Memory Game
 
-###What is the game about?
+## What is the game about?
 
 The game is about testing a player's memory.
 
@@ -16,7 +16,7 @@ Once players has revealed few colors, player needs to use his own strategy to re
 
 The player gets 16 clicks to finish the game, otherwise the player loses and the game is reset again.
 
-##What features did it include?
+## What features did it include?
 
 The game board was created using HTML.
 
@@ -26,7 +26,9 @@ Flexbox was used to size and position the cards.
 
 The game features a START OVER button that resets the game.
 
-##Were there any particular pain points or unsolved problems you had to manage? (e.g. technological, timing, content, etc.)
+The game features an alert when player wins or loses.
+
+## Were there any particular pain points or unsolved problems you had to manage? (e.g. technological, timing, content, etc.)
 
 The first issue was to make sure cards did not have the same color on it when a new game was played or when game was reset.
 
@@ -34,7 +36,7 @@ I could not create 1 click event for all my cards to add different colors. I hav
 
 I want to figure out a way to do this even after the project has been submitted.
 
-##Is there any other information you think might help us understand what you've built?
+## Is there any other information you think might help us understand what you've built?
 
 Most memory games reveal the cards for a short period of time before flipping over. This game does not reveal the colors on load. Player has to reveal the cards and keep the colors in their memory.
 
@@ -44,11 +46,11 @@ If I did not use a setTimeout function, player would not see the second card if 
 
 I think the game can be made more difficult if the colors would include different shades of the same color.
 
-##List the technologies used
+## List the technologies used
 
 HTML, CSS, Flexbox, Javascript, JQuery
 
-##Describe the approach taken
+## Describe the approach taken
 
 Instead of rendering the board from Javascript, I created the board using HTML and CSS.
 
