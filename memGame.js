@@ -28,8 +28,8 @@ window.onload = function() {
   }
   //updates the counter, checks if losing condition
   function addClicks() {
-    if (clicks == 18) {
-      alert("Better luck next time.");
+    if (clicks == 16) {
+      alert("Better luck next time. Try again.");
       fresh();
     } else {
       clicks++;
@@ -70,7 +70,7 @@ window.onload = function() {
       $("#card9").hasClass("hidden") &&
       $("#card10").hasClass("hidden")
     ) {
-      alert("You won.");
+      alert("You won");
       fresh();
     }
   }
@@ -146,5 +146,4 @@ window.onload = function() {
     checkArray.push(newColors[9]);
     setTimeout(flipOrVanish, 250);
   });
-  console.log(newColors);
 };
